@@ -23,13 +23,12 @@ public class EmployeeController
 	public void setemployeeService(EmployeeService employeeService)
 	{
 		this.employeeService=employeeService;
-		System.out.println("harshad");
 	}
 	
 	@RequestMapping(value="/viewEmp", method=RequestMethod.GET )
 	public String EmployeeList(HttpServletRequest req , HttpServletResponse res , Model model)
 	{
-		//System.out.println("in controller");
+		System.out.println("in controller");
 		try 
 		{
 		    List <EmployeeEntity> empList = employeeService.getemployeeService();
