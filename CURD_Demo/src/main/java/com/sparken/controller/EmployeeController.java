@@ -23,6 +23,7 @@ public class EmployeeController
 	public void setemployeeService(EmployeeService employeeService)
 	{
 		this.employeeService=employeeService;
+		System.out.println("harshad");
 	}
 	
 	@RequestMapping(value="/viewEmp", method=RequestMethod.GET )
