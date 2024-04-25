@@ -1,0 +1,51 @@
+html, body{
+		margin-left:50px;
+		margin-right:50px;
+		padding:0px;
+		font-family:Verdana, Arial, Helvetica, serif;
+		background-color: rgb(0, 0, 0);
+	
+        }
+
+a:hover {
+ 				 background-color: rgb(224, 224, 235);
+ 				 font-weight: bold;
+ 				 font-style: oblique;
+		}
+a:visited{
+	color:rgb(115, 210, 22);
+}
+		
+h1{
+	margin-left:100px;
+	margin-right:100px;
+	 padding:15px;
+	 font-size: 40px;
+	 font-family: Verdana, sans-serif;
+	 font-style: italic;
+	 color:rgb(0, 0, 0);
+	 text-shadow: 2px 2px 4px #000000;
+	 background-color: grey;
+	 box-shadow: 10px 10px;
+	 text-align: center;
+}
+
+div.first{
+	margin-left:250px;
+	margin-right:250px;
+	padding:10px;
+	background-color: grey;
+	box-shadow: 10px 10px rgb(186, 189, 182);
+	text-align: center;
+}
+
+div.second{
+	margin-left:250px;
+	margin-right:250px;
+	padding:10px;
+	background-color: grey;
+	box-shadow: 10px 10px rgb(186, 189, 182);
+	text-align: center;
+}
+
+
